@@ -5,6 +5,6 @@
 #ifndef PROJECT_CORE_H
 #define PROJECT_CORE_H
 
-bool isABoilerPlater();
+bool isABoilerplate();
 
 #endif //PROJECT_CORE_H

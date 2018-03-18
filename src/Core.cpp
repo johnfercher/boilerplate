@@ -2,8 +2,8 @@
 // Created by johnathan on 18/03/18.
 //
 
-#include "core.h"
+#include "Core.h"
 
-bool isABoilerPlater(){
+bool isABoilerplate(){
   return true;
 }

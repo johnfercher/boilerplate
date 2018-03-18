@@ -7,10 +7,10 @@
 # file, You can obtain one at http://www.gnu.org/licenses/gpl-3.0/.
 #
 
-RUN() {
+TEST() {
     cd build
-    ./boilerplate
+    ./tests
     cd ..
 }
 
-RUN;
+TEST;

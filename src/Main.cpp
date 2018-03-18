@@ -3,10 +3,10 @@
 //
 
 #include "iostream"
-#include "core.h"
+#include "../include/Core.h"
 
 int main() {
-  if(isABoilerPlater())
+  if(isABoilerplate())
     std::cout << "boilerplate" << std::endl;
 
   return 0;
