@@ -1,9 +1,0 @@
-/home/johnathan/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/johnathan/Repositories/John/boilerplate
-CMake Error at CMakeLists.txt:14 (add_subdirectory):
-  add_subdirectory given source "third-party/googletest" which is not an
-  existing directory.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/johnathan/Repositories/John/boilerplate/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/home/johnathan/Repositories/John/boilerplate/cmake-build-debug/CMakeFiles/CMakeError.log".
