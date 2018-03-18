@@ -1,0 +1,4 @@
+/home/johnathan/Repositories/John/boilerplate/build/CMakeFiles/rebuild_cache.dir
+/home/johnathan/Repositories/John/boilerplate/build/CMakeFiles/boilerplate.dir
+/home/johnathan/Repositories/John/boilerplate/build/CMakeFiles/edit_cache.dir
+/home/johnathan/Repositories/John/boilerplate/build/CMakeFiles/core.dir

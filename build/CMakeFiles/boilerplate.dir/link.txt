@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -std=c++11   CMakeFiles/boilerplate.dir/main.cpp.o  -o boilerplate -rdynamic libcore.a 
