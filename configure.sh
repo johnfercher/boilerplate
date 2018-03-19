@@ -23,4 +23,5 @@ INSTALL() {
 }
 
 INSTALL;
+exit;
 

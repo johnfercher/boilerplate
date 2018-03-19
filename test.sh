@@ -14,3 +14,4 @@ TEST() {
 }
 
 TEST;
+exit;
