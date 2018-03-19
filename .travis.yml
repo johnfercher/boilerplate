@@ -6,5 +6,5 @@ services:
   - docker
 
 script:
-  - sudo docker build -t boilerplate
+  - sudo docker build -t boilerplate .
   - sudo docker run boilerplateged
