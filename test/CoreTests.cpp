@@ -6,6 +6,6 @@
 #include <Core.h>
 
 TEST(isABoilerPlate, ShouldReturnTrue){
-  EXPECT_TRUE(isABoilerplate());
+  EXPECT_FALSE(isABoilerplate());
 }
 
