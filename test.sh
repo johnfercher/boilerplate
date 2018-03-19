@@ -14,4 +14,4 @@ TEST() {
 }
 
 TEST;
-exit;
+exit 1;
