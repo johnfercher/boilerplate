@@ -7,6 +7,14 @@
 # file, You can obtain one at http://www.gnu.org/licenses/gpl-3.0/.
 #
 
+EXIT_IF_AN_ERROR_OCCURRED() {
+    LAST_CODE=$?;
+    if [[ LAST_CODE != 0 ]];
+    then
+        exit LAST_CODE;
+    fi
+}
+
 CREATE_BUILD_FOLDER_IF_DOESNT_EXIST() {
     if [ ! -d build ]
     then
@@ -23,5 +31,5 @@ INSTALL() {
 }
 
 INSTALL;
-exit;
+EXIT_IF_AN_ERROR_OCCURRED;
 

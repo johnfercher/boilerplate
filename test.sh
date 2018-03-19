@@ -7,6 +7,14 @@
 # file, You can obtain one at http://www.gnu.org/licenses/gpl-3.0/.
 #
 
+EXIT_IF_AN_ERROR_OCCURRED() {
+    LAST_CODE=$?;
+    if [[ LAST_CODE != 0 ]];
+    then
+        exit LAST_CODE;
+    fi
+}
+
 TEST() {
     cd build
     ./tests
@@ -14,4 +22,5 @@ TEST() {
 }
 
 TEST;
-exit 1;
+EXIT_IF_AN_ERROR_OCCURRED;
+
