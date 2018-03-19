@@ -16,7 +16,7 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 
 # Tests. *-test.cpp should be added here.
-add_executable(tests test/CoreTests.cpp)
+add_executable(tests test/CoreTests.cpp test/main.cpp)
 
 # Link core, pthread and gtest to tests.
 target_link_libraries(tests
