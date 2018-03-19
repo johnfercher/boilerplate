@@ -1,0 +1,10 @@
+sudo: required
+
+language: cpp
+
+services:
+  - docker
+
+script:
+  - docker build -t boilerplate
+  - docker run boilerplate
