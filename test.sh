@@ -9,9 +9,9 @@
 
 EXIT_IF_AN_ERROR_OCCURRED() {
     LAST_CODE=$?;
-    if [[ LAST_CODE != 0 ]];
+    if [[ $LAST_CODE != 0 ]];
     then
-        exit LAST_CODE;
+        exit $LAST_CODE;
     fi
 }
 
