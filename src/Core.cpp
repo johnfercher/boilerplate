@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <stdexcept>
 #include "Core.h"
 
 void calculator(int a, int b) {
