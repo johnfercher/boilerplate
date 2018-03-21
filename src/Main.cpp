@@ -6,8 +6,7 @@
 #include "../include/Core.h"
 
 int main() {
-  if(isABoilerplate())
-    std::cout << "boilerplate" << std::endl;
+  calculator(10, 10);
 
   return 0;
 }

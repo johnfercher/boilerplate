@@ -5,6 +5,8 @@
 #ifndef PROJECT_CORE_H
 #define PROJECT_CORE_H
 
-bool isABoilerplate();
+void calculator(int, int);
+
+double divide(int, int);
 
 #endif //PROJECT_CORE_H
