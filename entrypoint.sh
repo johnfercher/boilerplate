@@ -16,4 +16,16 @@ TEST() {
     cd ..
 }
 
-TEST;
+RUN() {
+    cd build
+    ./boilerplate
+    cd ..
+}
+
+
+if [[ $1 == "test" ]];
+then
+    TEST;
+else
+    RUN;
+fi

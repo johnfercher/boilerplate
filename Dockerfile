@@ -9,10 +9,10 @@ WORKDIR /boilerplate
 
 # Adiciona permissão de execução dos shellscripts
 RUN chmod +x /boilerplate/configure.sh
-RUN chmod +x /boilerplate/test.sh
+RUN chmod +x /boilerplate/entrypoint.sh
 
 # Executa a instalação na criação dos containers
 RUN /boilerplate/configure.sh
 
-# Comando executado no docker run
-CMD ["bash", "test.sh"]
+# Script executado no docker run
+ENTRYPOINT ["/boilerplate/entrypoint.sh"]

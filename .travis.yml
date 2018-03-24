@@ -12,4 +12,4 @@ services:
 
 script:
   - sudo docker build -t boilerplate .
-  - sudo docker run boilerplate
+  - sudo docker run boilerplate test
