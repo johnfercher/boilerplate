@@ -8,7 +8,7 @@
 
 void calculator(int a, int b) {
   try {
-    auto result = divide(a, b);
+    float result = divide(a, b);
     // Imprime a divisão formatada
     std::cout << a << " / " << b << " = " << result << std::endl;
   }
