@@ -10,7 +10,7 @@ CREATE_BUILD_FOLDER_IF_DOESNT_EXIST() {
 INSTALL() {
     CREATE_BUILD_FOLDER_IF_DOESNT_EXIST;
     cd build
-    cmake ..
+    cmake -D RELEASE=ON ..
     make
     cd ..
 }
